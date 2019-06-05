@@ -2,20 +2,20 @@ apiVersion: v1
 entries:
   maestro:
   - apiVersion: v1
-    created: "2019-06-05T14:46:03.170958628-04:00"
+    created: "2019-06-05T14:57:43.95830077-04:00"
     description: Maestro helm chart
     digest: 6462565d5de6f5c70ec39c7a753faef9d64e8c840f18edb5fb88293c8c7ee049
     name: maestro
     urls:
-    - https://http:/overture-stack.github.io/charts-server/maestro-0.2.0.tgz
+    - https://overture-stack.github.io/charts-server/maestro-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-06-05T14:46:03.170750393-04:00"
+    created: "2019-06-05T14:57:43.958078644-04:00"
     description: Maestro helm chart
     digest: 397e5948d64f700121933a1aa6d0c25074c2e8d0a97836c861ffc3230c19723b
     name: maestro
     urls:
-    - https://http:/overture-stack.github.io/charts-server/maestro-0.1.0.tgz
+    - https://overture-stack.github.io/charts-server/maestro-0.1.0.tgz
     version: 0.1.0
-generated: "2019-06-05T14:46:03.170172087-04:00"
+generated: "2019-06-05T14:57:43.957710858-04:00"
