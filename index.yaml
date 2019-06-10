@@ -1,8 +1,17 @@
 apiVersion: v1
 entries:
+  ego:
+  - apiVersion: v1
+    created: "2019-06-10T10:58:35.47031926-04:00"
+    description: A Helm chart for ego
+    digest: 0ae374f7dead07e5fa1d5068932105b889cdb7e68c57651977f164b4a34fb2be
+    name: ego
+    urls:
+    - https://overture-stack.github.io/charts-server/ego-0.1.9.tgz
+    version: 0.1.9
   maestro:
   - apiVersion: v1
-    created: "2019-06-07T11:20:41.803905963-04:00"
+    created: "2019-06-10T10:58:35.470829381-04:00"
     description: Maestro helm chart
     digest: 6462565d5de6f5c70ec39c7a753faef9d64e8c840f18edb5fb88293c8c7ee049
     name: maestro
@@ -11,7 +20,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-06-07T11:20:41.803527909-04:00"
+    created: "2019-06-10T10:58:35.470637242-04:00"
     description: Maestro helm chart
     digest: 397e5948d64f700121933a1aa6d0c25074c2e8d0a97836c861ffc3230c19723b
     name: maestro
@@ -21,11 +30,31 @@ entries:
   postgres:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-06-07T11:20:41.804130012-04:00"
+    created: "2019-06-10T10:58:35.471027772-04:00"
     description: A Helm chart for Kubernetes
     digest: 4096dd76e9efa208b5f008d15bbfdc6f9fd14ba6602714ad6ac014b3eee94ec7
     name: postgres
     urls:
     - https://overture-stack.github.io/charts-server/postgres-0.1.0.tgz
     version: 0.1.0
-generated: "2019-06-07T11:20:41.802827749-04:00"
+  score:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-06-10T10:58:35.471209279-04:00"
+    description: A Helm chart for Kubernetes
+    digest: e72e33c7d0d5889e44871ebd6492e07a6506c2dfd231595681022a4efbbec5d3
+    name: score
+    urls:
+    - https://overture-stack.github.io/charts-server/score-0.1.0.tgz
+    version: 0.1.0
+  song:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-06-10T10:58:35.471587277-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 63efc82b3e398db36841fcd692c7a1de84f0f00b95e198691ea69af4f3e7b0a2
+    name: song
+    urls:
+    - https://overture-stack.github.io/charts-server/song-0.1.1.tgz
+    version: 0.1.1
+generated: "2019-06-10T10:58:35.469711729-04:00"
