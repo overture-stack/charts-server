@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   ego:
   - apiVersion: v1
-    created: 2019-07-19T11:22:12.795622414-04:00
+    created: 2019-08-14T16:49:47.480884897-04:00
     description: A Helm chart for ego
     digest: 40d3462e25583b5284731cce380d26781f70dfcf9bf8afabad90ec66cf44dc03
     name: ego
@@ -10,7 +10,7 @@ entries:
     - https://overture-stack.github.io/charts-server/ego-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: 2019-07-19T11:22:12.795221341-04:00
+    created: 2019-08-14T16:49:47.480341006-04:00
     description: A Helm chart for ego
     digest: 79db57440b17b88ecf19a87102e7900b1b45abccfc70b03c455aa0b45c629373
     name: ego
@@ -20,7 +20,16 @@ entries:
   lectern:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-07-19T11:22:12.796019456-04:00
+    created: 2019-08-14T16:49:47.48178722-04:00
+    description: A Helm chart for Kubernetes
+    digest: bedd0b88537ae96b9a7b23153e9e12e09dd899183ac3d1fd780cffce0ba834a1
+    name: lectern
+    urls:
+    - https://overture-stack.github.io/charts-server/lectern-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-08-14T16:49:47.481574283-04:00
     description: A Helm chart for Kubernetes
     digest: f525bfaeeab93cae481d92c3cfd4b96b32e923481f0f7122913dc3121d8edaf5
     name: lectern
@@ -29,7 +38,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-07-19T11:22:12.79581052-04:00
+    created: 2019-08-14T16:49:47.481204-04:00
     description: A Helm chart for Kubernetes
     digest: cd6a379cfc3039ffad42fcde1506c5695087b5ebdb460bfdbdd354bff5d67948
     name: lectern
@@ -38,7 +47,7 @@ entries:
     version: 0.1.0
   maestro:
   - apiVersion: v1
-    created: 2019-07-19T11:22:12.79664938-04:00
+    created: 2019-08-14T16:49:47.482676274-04:00
     description: Maestro helm chart
     digest: c835061b3438f57997170c57657c174d1ca7beabff1510dbc634bb7c7c9f0a42
     name: maestro
@@ -46,7 +55,7 @@ entries:
     - https://overture-stack.github.io/charts-server/maestro-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
-    created: 2019-07-19T11:22:12.796452409-04:00
+    created: 2019-08-14T16:49:47.482445879-04:00
     description: Maestro helm chart
     digest: 6462565d5de6f5c70ec39c7a753faef9d64e8c840f18edb5fb88293c8c7ee049
     name: maestro
@@ -55,7 +64,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-07-19T11:22:12.796263692-04:00
+    created: 2019-08-14T16:49:47.482144214-04:00
     description: Maestro helm chart
     digest: 397e5948d64f700121933a1aa6d0c25074c2e8d0a97836c861ffc3230c19723b
     name: maestro
@@ -65,7 +74,7 @@ entries:
   postgres:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-07-19T11:22:12.796842607-04:00
+    created: 2019-08-14T16:49:47.483004237-04:00
     description: A Helm chart for Kubernetes
     digest: 4096dd76e9efa208b5f008d15bbfdc6f9fd14ba6602714ad6ac014b3eee94ec7
     name: postgres
@@ -75,7 +84,7 @@ entries:
   score:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-07-19T11:22:12.797046441-04:00
+    created: 2019-08-14T16:49:47.483299673-04:00
     description: A Helm chart for Kubernetes
     digest: e72e33c7d0d5889e44871ebd6492e07a6506c2dfd231595681022a4efbbec5d3
     name: score
@@ -85,7 +94,7 @@ entries:
   song:
   - apiVersion: v1
     appVersion: "1.1"
-    created: 2019-07-19T11:22:12.7978461-04:00
+    created: 2019-08-14T16:49:47.484659481-04:00
     description: A Helm chart for Kubernetes
     digest: a2622c0234ca589f63e91827100523494cf14115df1d682758ccc5ea162e6753
     name: song
@@ -94,11 +103,11 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: "1.1"
-    created: 2019-07-19T11:22:12.797409641-04:00
+    created: 2019-08-14T16:49:47.484025677-04:00
     description: A Helm chart for Kubernetes
     digest: e125f4d3475e008324031bfa551ada6da18722c41b627323906794e24bcde96b
     name: song
     urls:
     - https://overture-stack.github.io/charts-server/song-0.1.2.tgz
     version: 0.1.2
-generated: 2019-07-19T11:22:12.794507512-04:00
+generated: 2019-08-14T16:49:47.479597055-04:00
