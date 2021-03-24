@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   arranger:
   - apiVersion: v2
-    created: "2021-03-24T12:27:13.218643212-04:00"
+    created: "2021-03-24T12:40:55.279443383-04:00"
     description: A Helm chart for arranger
     digest: 5622baf9d0c8f603f1bd163109567fc9212c5d9c21d292640163274f75c90dc5
     name: arranger
@@ -13,7 +13,7 @@ entries:
   dms-ui:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.21898901-04:00"
+    created: "2021-03-24T12:40:55.279794796-04:00"
     description: A Helm chart for Kubernetes
     digest: 5cb306c2686630edacfd27455ac21c6742268f8c9497abf2c800c4c8f873c8fa
     name: dms-ui
@@ -22,7 +22,19 @@ entries:
     version: 0.1.0
   ego:
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.233143137-04:00"
+    created: "2021-03-24T12:40:55.29534109-04:00"
+    dependencies:
+    - name: postgres
+      repository: https://overture-stack.github.io/charts-server
+      version: 0.2.0
+    description: A Helm chart for ego
+    digest: 13de8ca422f24af7d9ec107e0c4ac9256d8dfe42afa01081e26d7e8ecec0ec91
+    name: ego
+    urls:
+    - https://overture-stack.github.io/charts-server/ego-2.5.0.tgz
+    version: 2.5.0
+  - apiVersion: v1
+    created: "2021-03-24T12:40:55.294047078-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -34,7 +46,7 @@ entries:
     - https://overture-stack.github.io/charts-server/ego-2.4.0.tgz
     version: 2.4.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.232408914-04:00"
+    created: "2021-03-24T12:40:55.293323015-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -46,7 +58,7 @@ entries:
     - https://overture-stack.github.io/charts-server/ego-2.3.0.tgz
     version: 2.3.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.231651819-04:00"
+    created: "2021-03-24T12:40:55.292568148-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -58,7 +70,7 @@ entries:
     - https://overture-stack.github.io/charts-server/ego-2.2.0.tgz
     version: 2.2.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.230915602-04:00"
+    created: "2021-03-24T12:40:55.291799418-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -70,7 +82,7 @@ entries:
     - https://overture-stack.github.io/charts-server/ego-2.1.0.tgz
     version: 2.1.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.230181106-04:00"
+    created: "2021-03-24T12:40:55.291062777-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -82,7 +94,7 @@ entries:
     - https://overture-stack.github.io/charts-server/ego-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.22943241-04:00"
+    created: "2021-03-24T12:40:55.290298551-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -94,7 +106,7 @@ entries:
     - https://overture-stack.github.io/charts-server/ego-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.228672892-04:00"
+    created: "2021-03-24T12:40:55.289544215-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -106,7 +118,7 @@ entries:
     - https://overture-stack.github.io/charts-server/ego-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.227888778-04:00"
+    created: "2021-03-24T12:40:55.288700591-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -118,7 +130,7 @@ entries:
     - https://overture-stack.github.io/charts-server/ego-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.226970173-04:00"
+    created: "2021-03-24T12:40:55.287685903-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -130,7 +142,7 @@ entries:
     - https://overture-stack.github.io/charts-server/ego-0.8.1.tgz
     version: 0.8.1
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.226209819-04:00"
+    created: "2021-03-24T12:40:55.286891249-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -142,7 +154,7 @@ entries:
     - https://overture-stack.github.io/charts-server/ego-0.8.0.tgz
     version: 0.8.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.225266048-04:00"
+    created: "2021-03-24T12:40:55.28607984-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -154,7 +166,7 @@ entries:
     - https://overture-stack.github.io/charts-server/ego-0.7.0.tgz
     version: 0.7.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.223866391-04:00"
+    created: "2021-03-24T12:40:55.28463392-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -166,7 +178,7 @@ entries:
     - https://overture-stack.github.io/charts-server/ego-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.223059314-04:00"
+    created: "2021-03-24T12:40:55.283806809-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -178,7 +190,7 @@ entries:
     - https://overture-stack.github.io/charts-server/ego-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.222247428-04:00"
+    created: "2021-03-24T12:40:55.282989158-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -190,7 +202,7 @@ entries:
     - https://overture-stack.github.io/charts-server/ego-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.221430761-04:00"
+    created: "2021-03-24T12:40:55.282192229-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -202,7 +214,7 @@ entries:
     - https://overture-stack.github.io/charts-server/ego-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.220625867-04:00"
+    created: "2021-03-24T12:40:55.281388873-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -214,7 +226,7 @@ entries:
     - https://overture-stack.github.io/charts-server/ego-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.219818449-04:00"
+    created: "2021-03-24T12:40:55.280600077-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -228,7 +240,7 @@ entries:
   lectern:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.237272295-04:00"
+    created: "2021-03-24T12:40:55.298878316-04:00"
     description: A Helm chart for Kubernetes
     digest: 2130036b98e0d0810f4d74bcbfa0b4306c3f43cd06f276fde531ad315bef6f91
     name: lectern
@@ -237,7 +249,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.236936099-04:00"
+    created: "2021-03-24T12:40:55.298529706-04:00"
     description: A Helm chart for Kubernetes
     digest: 4355433d85d239255f8710f444ef1936f3730122314235857318acda29946256
     name: lectern
@@ -246,7 +258,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.23659394-04:00"
+    created: "2021-03-24T12:40:55.298195942-04:00"
     description: A Helm chart for Kubernetes
     digest: e6f5a6e3ed00ebe6f04e856eba6a5e5196c5325cc3376d53b1dc5fbfd7e7e521
     name: lectern
@@ -255,7 +267,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.236238095-04:00"
+    created: "2021-03-24T12:40:55.297838026-04:00"
     description: A Helm chart for Kubernetes
     digest: 01d036f8f18a2b5c4eb5e1daf0acb5622f25820eec4eea4fddaec9be2bd078a7
     name: lectern
@@ -264,7 +276,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.235909234-04:00"
+    created: "2021-03-24T12:40:55.297507564-04:00"
     description: A Helm chart for Kubernetes
     digest: f231eb39ea310d2697fb6f61eecf1bcfede042bb00f9684afb58ac201e13213c
     name: lectern
@@ -273,7 +285,7 @@ entries:
     version: 0.2.4
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.235584093-04:00"
+    created: "2021-03-24T12:40:55.297193378-04:00"
     description: A Helm chart for Kubernetes
     digest: 6b8999b064ac613f8c7b7a9b408de00671463412d2ef222ed4c8a7aa135d6ddf
     name: lectern
@@ -282,7 +294,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.235263629-04:00"
+    created: "2021-03-24T12:40:55.296883591-04:00"
     description: A Helm chart for Kubernetes
     digest: 68c78f85d9c508e86009ff93db721246f3b2d4cce79cbce643b4d1b8ee6cade5
     name: lectern
@@ -291,7 +303,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.23494292-04:00"
+    created: "2021-03-24T12:40:55.296575749-04:00"
     description: A Helm chart for Kubernetes
     digest: d4d6339a926822a6e2c142302b4bada549eb091276a6414b09b89277ecd6e88d
     name: lectern
@@ -300,7 +312,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.23460877-04:00"
+    created: "2021-03-24T12:40:55.296273262-04:00"
     description: A Helm chart for Kubernetes
     digest: bedd0b88537ae96b9a7b23153e9e12e09dd899183ac3d1fd780cffce0ba834a1
     name: lectern
@@ -309,7 +321,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.233759178-04:00"
+    created: "2021-03-24T12:40:55.295953184-04:00"
     description: A Helm chart for Kubernetes
     digest: f525bfaeeab93cae481d92c3cfd4b96b32e923481f0f7122913dc3121d8edaf5
     name: lectern
@@ -318,7 +330,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.233432745-04:00"
+    created: "2021-03-24T12:40:55.295646749-04:00"
     description: A Helm chart for Kubernetes
     digest: cd6a379cfc3039ffad42fcde1506c5695087b5ebdb460bfdbdd354bff5d67948
     name: lectern
@@ -327,7 +339,7 @@ entries:
     version: 0.1.0
   maestro:
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.239708529-04:00"
+    created: "2021-03-24T12:40:55.301354193-04:00"
     description: Maestro helm chart
     digest: 731e0d5f1b3a33e081b03c90a53da765e2ce45247db939be2a62072443119564
     name: maestro
@@ -335,7 +347,7 @@ entries:
     - https://overture-stack.github.io/charts-server/maestro-0.8.0.tgz
     version: 0.8.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.239410914-04:00"
+    created: "2021-03-24T12:40:55.301033187-04:00"
     description: Maestro helm chart
     digest: 4c10d12048820ff9a2265d0d3b894ec68a497298884976d55ebcbab388b6d840
     name: maestro
@@ -343,7 +355,7 @@ entries:
     - https://overture-stack.github.io/charts-server/maestro-0.7.0.tgz
     version: 0.7.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.239105985-04:00"
+    created: "2021-03-24T12:40:55.300720818-04:00"
     description: Maestro helm chart
     digest: 703ac914adcfb3d296f4ceb6da63b61db5d54ca2286b9780fe914f58ff2772ae
     name: maestro
@@ -351,7 +363,7 @@ entries:
     - https://overture-stack.github.io/charts-server/maestro-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.238805671-04:00"
+    created: "2021-03-24T12:40:55.300412519-04:00"
     description: Maestro helm chart
     digest: 6dca58d4e34033fd60016abdecc3eb1593a7815bcebe3347016fd5f5c8fbf40d
     name: maestro
@@ -359,7 +371,7 @@ entries:
     - https://overture-stack.github.io/charts-server/maestro-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.238493905-04:00"
+    created: "2021-03-24T12:40:55.300114522-04:00"
     description: Maestro helm chart
     digest: 0913aea6d46364fd7cab5d50827d66a4530aacd14ac5eaff42638f352b609f23
     name: maestro
@@ -367,7 +379,7 @@ entries:
     - https://overture-stack.github.io/charts-server/maestro-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.2381804-04:00"
+    created: "2021-03-24T12:40:55.299811035-04:00"
     description: Maestro helm chart
     digest: c835061b3438f57997170c57657c174d1ca7beabff1510dbc634bb7c7c9f0a42
     name: maestro
@@ -375,7 +387,7 @@ entries:
     - https://overture-stack.github.io/charts-server/maestro-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
-    created: "2021-03-24T12:27:13.2378506-04:00"
+    created: "2021-03-24T12:40:55.299481975-04:00"
     description: Maestro helm chart
     digest: 6462565d5de6f5c70ec39c7a753faef9d64e8c840f18edb5fb88293c8c7ee049
     name: maestro
@@ -384,7 +396,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.237562903-04:00"
+    created: "2021-03-24T12:40:55.299183195-04:00"
     description: Maestro helm chart
     digest: 397e5948d64f700121933a1aa6d0c25074c2e8d0a97836c861ffc3230c19723b
     name: maestro
@@ -394,7 +406,7 @@ entries:
   postgres:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.240251239-04:00"
+    created: "2021-03-24T12:40:55.301916654-04:00"
     description: A Helm chart for Kubernetes
     digest: 98934eb863efda222d08d3e90f9ca81ecfd700762dbd0a051baa84b550f142ec
     name: postgres
@@ -403,7 +415,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.239978517-04:00"
+    created: "2021-03-24T12:40:55.301642734-04:00"
     description: A Helm chart for Kubernetes
     digest: 4096dd76e9efa208b5f008d15bbfdc6f9fd14ba6602714ad6ac014b3eee94ec7
     name: postgres
@@ -413,7 +425,7 @@ entries:
   rollcall:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.242199484-04:00"
+    created: "2021-03-24T12:40:55.303930871-04:00"
     description: A Helm chart for Kubernetes
     digest: 970ed4c57168095351770a2cbc8aaf0e5449b3b166aa957a02f954e062d6f87e
     name: rollcall
@@ -422,7 +434,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.241288058-04:00"
+    created: "2021-03-24T12:40:55.303576552-04:00"
     description: A Helm chart for Kubernetes
     digest: 5f0047111f453a3da47059dc7fb2953f54283db063f867a67f3aede5491bef50
     name: rollcall
@@ -431,7 +443,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.240921264-04:00"
+    created: "2021-03-24T12:40:55.303218735-04:00"
     description: A Helm chart for Kubernetes
     digest: 25847431c985b8ed9a0da581845e742928435aca9c8575cee8e6bf1de7b9497b
     name: rollcall
@@ -440,7 +452,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.240567351-04:00"
+    created: "2021-03-24T12:40:55.30283276-04:00"
     description: A Helm chart for Kubernetes
     digest: 1d9bc0d22e44452fcfe592bd20442e247b92b2127aabac49c3f519e412092ef3
     name: rollcall
@@ -450,7 +462,7 @@ entries:
   score:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.24383301-04:00"
+    created: "2021-03-24T12:40:55.305464903-04:00"
     description: A Helm chart for Kubernetes
     digest: d319a4eb1a50a7d0030122e7dcf010a39348511780e38656a432b1041d8d1251
     name: score
@@ -459,7 +471,7 @@ entries:
     version: 0.11.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.243422122-04:00"
+    created: "2021-03-24T12:40:55.305063703-04:00"
     description: A Helm chart for Kubernetes
     digest: df742257fd3644e8b48d5354f8d3d95d21c46f8f5ce674764c65aceb64b34f1c
     name: score
@@ -468,7 +480,7 @@ entries:
     version: 0.11.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.243004262-04:00"
+    created: "2021-03-24T12:40:55.304656408-04:00"
     description: A Helm chart for Kubernetes
     digest: 7f5df36dac5452c74893fbb2302f258edb09587dba7d4d19211208ed7cfd1bd5
     name: score
@@ -477,7 +489,7 @@ entries:
     version: 0.10.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.24665883-04:00"
+    created: "2021-03-24T12:40:55.30827715-04:00"
     description: A Helm chart for Kubernetes
     digest: a305d7a11efbf0e9d693d09e242ed5cd1dd442ed7ac1e4cdc4a7e664c267c21b
     name: score
@@ -486,7 +498,7 @@ entries:
     version: 0.9.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.246273527-04:00"
+    created: "2021-03-24T12:40:55.307898496-04:00"
     description: A Helm chart for Kubernetes
     digest: 497fb178a28f6fe0708d4e6729cd3115c9a7fe39649384f2f910eabacc10d602
     name: score
@@ -495,7 +507,7 @@ entries:
     version: 0.8.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.245903985-04:00"
+    created: "2021-03-24T12:40:55.307516886-04:00"
     description: A Helm chart for Kubernetes
     digest: 73b098bd6d46cceec629f945f61cf04919c7f606515b6cb1e583eb4be663a2da
     name: score
@@ -504,7 +516,7 @@ entries:
     version: 0.7.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.245537523-04:00"
+    created: "2021-03-24T12:40:55.307147635-04:00"
     description: A Helm chart for Kubernetes
     digest: 2052a45c437c55f65f0ad4a732e8118e41a7ef14d30063f5a4843d2c7f9ab870
     name: score
@@ -513,7 +525,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.245199824-04:00"
+    created: "2021-03-24T12:40:55.306811835-04:00"
     description: A Helm chart for Kubernetes
     digest: 93b96e03651f73c1850b21fb3b63a3a2d543972a1d0050676a00f7831a701f06
     name: score
@@ -522,7 +534,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.244859936-04:00"
+    created: "2021-03-24T12:40:55.30646635-04:00"
     description: A Helm chart for Kubernetes
     digest: feda346d0ac82d5f0b7a626cf25c017499d21b82eb5ae6db47f475b05cfd73ec
     name: score
@@ -531,7 +543,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.244510482-04:00"
+    created: "2021-03-24T12:40:55.306136094-04:00"
     description: A Helm chart for Kubernetes
     digest: 5a81deddb727f2181fcf7b8edd0eaefbd9544d0314b52c0f0cf1166291eb6a88
     name: score
@@ -540,7 +552,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.244174418-04:00"
+    created: "2021-03-24T12:40:55.305801268-04:00"
     description: A Helm chart for Kubernetes
     digest: 6de43322ebb9ec61d12ad19d1dcf05bfb9d85b9d6d703d74cf137c0adb5b753d
     name: score
@@ -549,7 +561,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-24T12:27:13.242565513-04:00"
+    created: "2021-03-24T12:40:55.304259509-04:00"
     description: A Helm chart for Kubernetes
     digest: e72e33c7d0d5889e44871ebd6492e07a6506c2dfd231595681022a4efbbec5d3
     name: score
@@ -559,7 +571,7 @@ entries:
   song:
   - apiVersion: v1
     appVersion: "1.1"
-    created: "2021-03-24T12:27:13.251918535-04:00"
+    created: "2021-03-24T12:40:55.31363336-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -572,7 +584,7 @@ entries:
     version: 0.11.1
   - apiVersion: v1
     appVersion: "1.1"
-    created: "2021-03-24T12:27:13.25111263-04:00"
+    created: "2021-03-24T12:40:55.312813775-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -585,7 +597,7 @@ entries:
     version: 0.11.0
   - apiVersion: v1
     appVersion: "1.1"
-    created: "2021-03-24T12:27:13.249753026-04:00"
+    created: "2021-03-24T12:40:55.312012321-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -598,7 +610,7 @@ entries:
     version: 0.10.1
   - apiVersion: v1
     appVersion: "1.1"
-    created: "2021-03-24T12:27:13.248969884-04:00"
+    created: "2021-03-24T12:40:55.31121494-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -611,7 +623,7 @@ entries:
     version: 0.10.0
   - apiVersion: v1
     appVersion: "1.1"
-    created: "2021-03-24T12:27:13.259299692-04:00"
+    created: "2021-03-24T12:40:55.321150363-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -624,7 +636,7 @@ entries:
     version: 0.9.0
   - apiVersion: v1
     appVersion: "1.1"
-    created: "2021-03-24T12:27:13.25842144-04:00"
+    created: "2021-03-24T12:40:55.319913127-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -637,7 +649,7 @@ entries:
     version: 0.8.0
   - apiVersion: v1
     appVersion: "1.1"
-    created: "2021-03-24T12:27:13.257556898-04:00"
+    created: "2021-03-24T12:40:55.318851312-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -650,7 +662,7 @@ entries:
     version: 0.7.0
   - apiVersion: v1
     appVersion: "1.1"
-    created: "2021-03-24T12:27:13.256728231-04:00"
+    created: "2021-03-24T12:40:55.318058806-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -663,7 +675,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: "1.1"
-    created: "2021-03-24T12:27:13.255899108-04:00"
+    created: "2021-03-24T12:40:55.317299981-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -676,7 +688,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: "1.1"
-    created: "2021-03-24T12:27:13.255084373-04:00"
+    created: "2021-03-24T12:40:55.316561337-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -689,7 +701,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: "1.1"
-    created: "2021-03-24T12:27:13.254157811-04:00"
+    created: "2021-03-24T12:40:55.315822198-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -702,7 +714,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: "1.1"
-    created: "2021-03-24T12:27:13.253377294-04:00"
+    created: "2021-03-24T12:40:55.315071845-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -715,7 +727,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: "1.1"
-    created: "2021-03-24T12:27:13.252653698-04:00"
+    created: "2021-03-24T12:40:55.314325687-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -728,7 +740,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.1"
-    created: "2021-03-24T12:27:13.248186459-04:00"
+    created: "2021-03-24T12:40:55.309809677-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -741,7 +753,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: "1.1"
-    created: "2021-03-24T12:27:13.247352432-04:00"
+    created: "2021-03-24T12:40:55.308980937-04:00"
     dependencies:
     - name: postgres
       repository: https://overture-stack.github.io/charts-server
@@ -752,4 +764,4 @@ entries:
     urls:
     - https://overture-stack.github.io/charts-server/song-0.1.2.tgz
     version: 0.1.2
-generated: "2021-03-24T12:27:13.217985391-04:00"
+generated: "2021-03-24T12:40:55.278777052-04:00"
