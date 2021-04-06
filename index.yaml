@@ -13,6 +13,15 @@ entries:
   dms-ui:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2021-04-06T13:19:46.877963-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 0bb15b6b4cb40a6974f658e65fbabdc7beaeb35db5dd9c7bd7300ca16e8f8582
+    name: dms-ui
+    urls:
+    - https://overture-stack.github.io/charts-server/dms-ui-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2021-03-29T15:28:16.780477-04:00"
     description: A Helm chart for Kubernetes
     digest: 5cb306c2686630edacfd27455ac21c6742268f8c9497abf2c800c4c8f873c8fa
@@ -783,4 +792,4 @@ entries:
     urls:
     - https://overture-stack.github.io/charts-server/song-0.1.2.tgz
     version: 0.1.2
-generated: "2021-03-29T15:28:16.7714758-04:00"
+generated: "2021-04-06T13:19:46.877486-04:00"
