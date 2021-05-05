@@ -2,6 +2,15 @@ apiVersion: v1
 entries:
   arranger:
   - apiVersion: v2
+    created: "2021-05-05T14:18:36.531511-04:00"
+    description: A Helm chart for arranger
+    digest: a122857a3836629b0e9d20a5605b36d2435d32e9c5296e435aa2437df4e203a4
+    name: arranger
+    type: application
+    urls:
+    - https://overture-stack.github.io/charts-server/arranger-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     created: "2021-04-29T09:56:48.157754403-04:00"
     description: A Helm chart for arranger
     digest: 5622baf9d0c8f603f1bd163109567fc9212c5d9c21d292640163274f75c90dc5
@@ -852,4 +861,4 @@ entries:
     urls:
     - https://overture-stack.github.io/charts-server/song-0.1.2.tgz
     version: 0.1.2
-generated: "2021-04-29T09:56:48.156864791-04:00"
+generated: "2021-05-05T14:18:36.53073-04:00"
