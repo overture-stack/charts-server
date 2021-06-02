@@ -668,6 +668,19 @@ entries:
   song:
   - apiVersion: v1
     appVersion: "1.1"
+    created: "2021-06-02T07:15:38.482135-04:00"
+    dependencies:
+    - name: postgres
+      repository: https://overture-stack.github.io/charts-server
+      version: 0.2.0
+    description: A Helm chart for Kubernetes
+    digest: 834251aef44dc977c2ac015cac2bd48c293cae9c21c70183530ff12e78e16489
+    name: song
+    urls:
+    - https://overture-stack.github.io/charts-server/song-0.11.2.tgz
+    version: 0.11.2
+  - apiVersion: v1
+    appVersion: "1.1"
     created: "2021-04-29T09:56:48.213791198-04:00"
     dependencies:
     - name: postgres
@@ -861,4 +874,4 @@ entries:
     urls:
     - https://overture-stack.github.io/charts-server/song-0.1.2.tgz
     version: 0.1.2
-generated: "2021-05-05T14:18:36.53073-04:00"
+generated: "2021-06-02T07:15:38.480786-04:00"
