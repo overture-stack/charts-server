@@ -532,6 +532,15 @@ entries:
   rollcall:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2021-08-11T10:04:06.810747-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 8c3623eeb4aaa728bcfb66f452708e0a9a3a0caf09df49d9893aab5d88bc5d7b
+    name: rollcall
+    urls:
+    - https://overture-stack.github.io/charts-server/rollcall-1.4.0.tgz
+    version: 1.4.0
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2021-06-16T10:38:02.582677282-04:00"
     description: A Helm chart for Kubernetes
     digest: 970ed4c57168095351770a2cbc8aaf0e5449b3b166aa957a02f954e062d6f87e
@@ -884,4 +893,4 @@ entries:
     urls:
     - https://overture-stack.github.io/charts-server/song-0.1.2.tgz
     version: 0.1.2
-generated: "2021-06-16T10:38:02.526866067-04:00"
+generated: "2021-08-11T10:04:06.808435-04:00"
