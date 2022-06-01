@@ -2,6 +2,15 @@ apiVersion: v1
 entries:
   arranger:
   - apiVersion: v2
+    created: "2022-05-18T15:25:32.675819-04:00"
+    description: A Helm chart for arranger
+    digest: 031e8ee56d9e7daf0ce2d8a7847b35b3a4c79486286e1008344c103e28dfe312
+    name: arranger
+    type: application
+    urls:
+    - https://overture-stack.github.io/charts-server/arranger-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     created: "2021-09-29T16:39:25.621646-04:00"
     description: A Helm chart for arranger
     digest: f48254863a92c53a4272b726075d9b8f6d990dd39bb31c26bada586f015ecc41
@@ -31,6 +40,15 @@ entries:
   dms-ui:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2022-05-18T15:25:32.67662-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 1508e5c52973c41480f55ff0e8e6e861bcbd490262c1cba5168e7d25d2890006
+    name: dms-ui
+    urls:
+    - https://overture-stack.github.io/charts-server/dms-ui-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2021-08-20T12:10:07.132608211-04:00"
     description: A Helm chart for Kubernetes
     digest: 0bb15b6b4cb40a6974f658e65fbabdc7beaeb35db5dd9c7bd7300ca16e8f8582
@@ -48,6 +66,14 @@ entries:
     - https://overture-stack.github.io/charts-server/dms-ui-0.1.0.tgz
     version: 0.1.0
   ego:
+  - apiVersion: v1
+    created: "2022-05-18T15:25:32.677913-04:00"
+    description: A Helm chart for ego
+    digest: 2efc0a5f05c0cc1392f58fc8c4e7eda38fcfe4bd6d9485b7c8d4c4f39ac13edb
+    name: ego
+    urls:
+    - https://overture-stack.github.io/charts-server/ego-3.1.0.tgz
+    version: 3.1.0
   - apiVersion: v1
     created: "2021-08-20T12:10:07.14843787-04:00"
     description: A Helm chart for ego
@@ -275,6 +301,15 @@ entries:
   lectern:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2022-05-18T15:25:32.678609-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 5b780e57126486b2e3def56a920721282c13e4dc79704aa6f3027135a202bb6a
+    name: lectern
+    urls:
+    - https://overture-stack.github.io/charts-server/lectern-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2021-08-20T12:10:07.153017381-04:00"
     description: A Helm chart for Kubernetes
     digest: 2130036b98e0d0810f4d74bcbfa0b4306c3f43cd06f276fde531ad315bef6f91
@@ -374,6 +409,14 @@ entries:
     version: 0.1.0
   maestro:
   - apiVersion: v1
+    created: "2022-05-18T15:25:32.680194-04:00"
+    description: Maestro helm chart
+    digest: ced3a29482114187a22a1a8c3be9013bade29a60d5b5c92aebedfddd9599ac64
+    name: maestro
+    urls:
+    - https://overture-stack.github.io/charts-server/maestro-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v1
     created: "2021-08-20T12:10:07.155517811-04:00"
     description: Maestro helm chart
     digest: 731e0d5f1b3a33e081b03c90a53da765e2ce45247db939be2a62072443119564
@@ -439,6 +482,16 @@ entries:
     - https://overture-stack.github.io/charts-server/maestro-0.1.0.tgz
     version: 0.1.0
   muse:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-05-18T15:25:32.683482-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 949944199cfb9c8a6f5238d768f68221169402b2b34cc9a153450629db1f9a63
+    name: muse
+    type: application
+    urls:
+    - https://overture-stack.github.io/charts-server/muse-0.10.0.tgz
+    version: 0.10.0
   - apiVersion: v2
     appVersion: 0.0.1
     created: "2021-08-20T12:10:07.161559392-04:00"
@@ -551,6 +604,15 @@ entries:
   rollcall:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2022-05-18T15:25:32.684409-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 7525843d80faf86e291a0da70e2ddbca3ffdbc35eb4101863c3224e22bceb18a
+    name: rollcall
+    urls:
+    - https://overture-stack.github.io/charts-server/rollcall-1.5.0.tgz
+    version: 1.5.0
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2021-08-20T12:10:07.164028423-04:00"
     description: A Helm chart for Kubernetes
     digest: 8c3623eeb4aaa728bcfb66f452708e0a9a3a0caf09df49d9893aab5d88bc5d7b
@@ -595,6 +657,15 @@ entries:
     - https://overture-stack.github.io/charts-server/rollcall-1.0.0.tgz
     version: 1.0.0
   score:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-05-18T15:25:32.685505-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 509f79f36a1d0ac3624f2bf406c0b89cfb79c5bf5af02cd4d8b9cdc67a7b992a
+    name: score
+    urls:
+    - https://overture-stack.github.io/charts-server/score-0.12.0.tgz
+    version: 0.12.0
   - apiVersion: v1
     appVersion: "1.0"
     created: "2021-08-20T12:10:07.165639625-04:00"
@@ -704,6 +775,19 @@ entries:
     - https://overture-stack.github.io/charts-server/score-0.1.0.tgz
     version: 0.1.0
   song:
+  - apiVersion: v1
+    appVersion: "1.1"
+    created: "2022-05-18T15:25:32.687333-04:00"
+    dependencies:
+    - name: postgres
+      repository: https://overture-stack.github.io/charts-server
+      version: 0.2.0
+    description: A Helm chart for Kubernetes
+    digest: 76f906988c813706856221fbe8bbeaadf547ad356db2b0c94567f4f513167ee4
+    name: song
+    urls:
+    - https://overture-stack.github.io/charts-server/song-0.12.0.tgz
+    version: 0.12.0
   - apiVersion: v1
     appVersion: "1.1"
     created: "2021-08-20T12:10:07.174970834-04:00"
@@ -912,32 +996,4 @@ entries:
     urls:
     - https://overture-stack.github.io/charts-server/song-0.1.2.tgz
     version: 0.1.2
-  stateless-svc:
-  - apiVersion: v2
-    created: "2021-11-17T09:36:54.97883-05:00"
-    description: A Helm chart for Kubernetes
-    digest: 6d108cda92168660521bb8544338533d029f04d6730414eafd98458f3968a45a
-    name: stateless-svc
-    type: application
-    urls:
-    - https://overture-stack.github.io/charts-server/stateless-svc-0.0.3.tgz
-    version: 0.0.3
-  - apiVersion: v2
-    created: "2021-11-16T19:55:46.663306-05:00"
-    description: A Helm chart for Kubernetes
-    digest: 735fbc919702e07524b6830e324cca640a631849294c4da57f8cc9767ff056ea
-    name: stateless-svc
-    type: application
-    urls:
-    - https://overture-stack.github.io/charts-server/stateless-svc-0.0.2.tgz
-    version: 0.0.2
-  - apiVersion: v2
-    created: "2021-11-16T18:39:26.606614-05:00"
-    description: A Helm chart for Kubernetes
-    digest: 54576190861a8d543585973f134a7dfb717b4b2fd7feddec5f3af51538faf5ab
-    name: stateless-svc
-    type: application
-    urls:
-    - https://overture-stack.github.io/charts-server/stateless-svc-0.0.1.tgz
-    version: 0.0.1
-generated: "2021-11-17T09:36:54.978009-05:00"
+generated: "2022-05-18T15:25:32.67429-04:00"
