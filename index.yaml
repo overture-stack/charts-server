@@ -659,9 +659,9 @@ entries:
   score:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-06-06T15:05:18.174436-04:00"
+    created: "2022-06-06T15:31:56.502052-04:00"
     description: A Helm chart for Kubernetes
-    digest: 999613a2938531a2de4efa921690f915c3a054aff75bc0448e4b0e6327b8754d
+    digest: 317ce11ffb7c9beafdd56817cf9e18dee8f57a4d2b863bc741ae3955d82ff055
     name: score
     urls:
     - https://overture-stack.github.io/charts-server/score-0.12.0.tgz
@@ -996,4 +996,4 @@ entries:
     urls:
     - https://overture-stack.github.io/charts-server/song-0.1.2.tgz
     version: 0.1.2
-generated: "2022-06-06T15:05:18.171338-04:00"
+generated: "2022-06-06T15:31:56.496959-04:00"
