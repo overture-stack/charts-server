@@ -484,6 +484,16 @@ entries:
   muse:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2022-08-08T16:07:25.650607-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 825f9cefabb329972d0de140fb676d38b38491befdd67f58d567e7d9a3980026
+    name: muse
+    type: application
+    urls:
+    - https://overture-stack.github.io/charts-server/muse-0.10.1.tgz
+    version: 0.10.1
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2022-06-29T09:33:00.578082-04:00"
     description: A Helm chart for Kubernetes
     digest: 949944199cfb9c8a6f5238d768f68221169402b2b34cc9a153450629db1f9a63
@@ -1022,4 +1032,4 @@ entries:
     urls:
     - https://overture-stack.github.io/charts-server/song-0.1.2.tgz
     version: 0.1.2
-generated: "2022-06-29T09:33:00.513472-04:00"
+generated: "2022-08-08T16:07:25.649089-04:00"
