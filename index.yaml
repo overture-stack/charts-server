@@ -2,6 +2,22 @@ apiVersion: v1
 entries:
   arranger:
   - apiVersion: v2
+    created: "2022-09-21T14:57:50.146058-04:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: A Helm chart for Arranger
+    digest: 098d7b3620459d6313034aa6803a04a9cd0ff1ed70cfd54314cb61a9d4cd3050
+    home: https://github.com/overture-stack/arranger/tree/main
+    name: arranger
+    type: application
+    urls:
+    - https://overture-stack.github.io/charts-server/arranger-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
     created: "2022-06-29T09:33:00.52288-04:00"
     description: A Helm chart for arranger
     digest: 031e8ee56d9e7daf0ce2d8a7847b35b3a4c79486286e1008344c103e28dfe312
@@ -1032,4 +1048,4 @@ entries:
     urls:
     - https://overture-stack.github.io/charts-server/song-0.1.2.tgz
     version: 0.1.2
-generated: "2022-08-08T16:07:25.649089-04:00"
+generated: "2022-09-21T08:58:10.707174-04:00"
