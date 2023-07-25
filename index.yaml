@@ -108,9 +108,9 @@ entries:
     version: 0.1.0
   ego:
   - apiVersion: v1
-    created: "2023-07-25T16:32:01.266082-04:00"
+    created: "2023-07-25T17:01:45.710905-04:00"
     description: A Helm chart for ego
-    digest: 60ca4ae956a2d30966331d8f15959740ae0f37863fc6c3470fc15c1f8d116fa5
+    digest: c68b8660726b70f04688ce8f2bfacc3ccc9d8eb21edd64a4965afd68b0e04113
     name: ego
     urls:
     - https://overture-stack.github.io/charts-server/ego-3.1.6.tgz
