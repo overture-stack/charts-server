@@ -535,6 +535,15 @@ entries:
   lyric:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2024-04-23T21:24:42.110108-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 22731b5e3b7029e923884210b41fd7344149868e0306e9e6769a6808cdd1c05f
+    name: lyric
+    urls:
+    - https://overture-stack.github.io/charts-server/lyric-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2024-04-18T16:17:15.094343-04:00"
     description: A Helm chart for Kubernetes
     digest: 63b11971659629a5260b5e84cf974221c20fa7bbd68406af9ba8179c525bc564
@@ -1200,4 +1209,4 @@ entries:
     urls:
     - https://overture-stack.github.io/charts-server/song-0.1.2.tgz
     version: 0.1.2
-generated: "2024-04-18T16:17:15.087994-04:00"
+generated: "2024-04-23T21:24:42.109715-04:00"
