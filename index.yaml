@@ -985,6 +985,20 @@ entries:
   song:
   - apiVersion: v1
     appVersion: "1.1"
+    created: "2025-01-14T10:38:56.770999-05:00"
+    dependencies:
+    - condition: postgres.useInternalDep
+      name: postgres
+      repository: https://overture-stack.github.io/charts-server
+      version: 0.2.0
+    description: A Helm chart for Kubernetes
+    digest: f1f2a0c7a51ec9f18ff8a1eb3e18386235e90faf37f843519037dd2c1b4140f1
+    name: song
+    urls:
+    - https://overture-stack.github.io/charts-server/song-0.12.4.tgz
+    version: 0.12.4
+  - apiVersion: v1
+    appVersion: "1.1"
     created: "2024-08-26T10:46:34.21279-04:00"
     dependencies:
     - condition: postgres.useInternalDep
@@ -1335,4 +1349,4 @@ entries:
     urls:
     - https://overture-stack.github.io/charts-server/stateless-svc-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-25T10:20:19.959976-05:00"
+generated: "2025-01-14T10:38:56.764947-05:00"
