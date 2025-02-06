@@ -136,9 +136,9 @@ entries:
     version: 0.1.0
   ego:
   - apiVersion: v1
-    created: "2025-02-06T16:07:03.973783-05:00"
+    created: "2025-02-06T16:12:18.730293-05:00"
     description: A Helm chart for ego
-    digest: ae9ec0f1ce602e1b3d218eb56503a3e30f9880c8ca1fd0c9b494094b5e6e1e23
+    digest: ce7b3c68cd828595487466032447072f77ca847b98e41c2b80938aac90fb5eaa
     name: ego
     urls:
     - https://overture-stack.github.io/charts-server/ego-3.2.0.tgz
@@ -1357,4 +1357,4 @@ entries:
     urls:
     - https://overture-stack.github.io/charts-server/stateless-svc-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-06T16:07:03.972999-05:00"
+generated: "2025-02-06T16:12:18.729556-05:00"
