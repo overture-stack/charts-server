@@ -1268,9 +1268,9 @@ entries:
     version: 0.1.2
   stateless-svc:
   - apiVersion: v2
-    created: "2025-04-11T12:20:10.222776-04:00"
+    created: "2025-04-11T13:23:25.319279-04:00"
     description: A generic Helm chart for Kubernetes
-    digest: 63b0dc2b1ed0fb6aca4313e92ded0ed09292e903a2a04205eadb4a102bf2e12f
+    digest: c4b984f07432056c707dbce4abffaa157f9d64e52535c7176457ef7d7b444be6
     name: stateless-svc
     type: application
     urls:
@@ -1366,4 +1366,4 @@ entries:
     urls:
     - https://overture-stack.github.io/charts-server/stateless-svc-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-11T12:20:10.222137-04:00"
+generated: "2025-04-11T13:23:25.318539-04:00"
